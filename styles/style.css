@@ -65,7 +65,7 @@
   position: relative;
   width: 1100px;
   min-height: 757px;
-  background-image: url(./images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
   z-index: 1;
