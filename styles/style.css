@@ -274,19 +274,18 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   margin-top: 180px;
-  padding: 2px 50px 0px 50px;
-  font-size: 18px;
-  font-weight: 400;
+  padding-bottom: 82px;
+}
+
+.address__footer {
+  padding-left: 50px;
 }
 
 .footer__menu-list {
-  display: flex;
-  flex-direction: column;
   justify-self: center;
-  text-align: center;
-  text-underline-offset: 4px;
+  width: 164px;
+  height: 64px;
 }
 
 .footer__menu-list-item {
@@ -299,9 +298,11 @@
 
 .footer__social-list {
   display: flex;
-  flex-direction: row;
-  justify-self: end;
+  justify-content: center;
   gap: 48px;
+  list-style: none;
+  padding-left: 25px;
+  padding-top: 3px;
 }
 
 .footer__social-list-item {
@@ -310,10 +311,9 @@
 
 .footer__social-link {
   display: block;
-  width: 48px;
-  height: 48px;
 }
 
 .footer__social-icon {
-  width: 100%;
+  width: 48px;
+  height: 48px;
 }
