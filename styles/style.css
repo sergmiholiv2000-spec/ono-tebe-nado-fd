@@ -274,7 +274,6 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   margin-top: 180px;
   font-size: 18px;
   font-weight: 400;
